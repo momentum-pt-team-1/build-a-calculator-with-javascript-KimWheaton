@@ -1,3 +1,6 @@
+/* change padding to right of display
+adjust sizes of calculator keys to better fill calculator box */
+
 #calculator {
     border: 1px solid black;
     border-radius: 5px;
@@ -27,7 +30,7 @@
     padding: 10px;
   }
   
-button {
+.number {
     height: 50px;
     border-radius: 6px;
     border: 1px solid darkslategray;
@@ -36,7 +39,58 @@ button {
     color: black;
   }
   
-button:hover {
+.number:hover {
     background-color: lightsteelblue;
   }
     
+.decimal {
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid darkslategray;
+  background-color: whitesmoke;
+  font-size: 2rem;
+  color: black;
+}
+
+.decimal:hover {
+  background-color: lightsteelblue;
+}   
+
+.operator {
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid darkslategray;
+    background-color: palegoldenrod;
+    font-size: 2rem;
+    color: black;
+  }
+  
+.operator:hover {
+    background-color: lightsteelblue;
+  }  
+
+.equal-sign {
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid darkslategray;
+  background-color: palegoldenrod;
+  font-size: 2rem;
+  color: black;
+}
+
+.equal-sign:hover {
+  background-color: lightsteelblue;
+}    
+
+.all-clear {
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid darkslategray;
+    background-color: lightsalmon;
+    font-size: 2rem;
+    color: black;
+}
+
+.all-clear:hover {
+    background-color: lightsteelblue;
+  }  
